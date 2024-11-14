@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="280dp"
+            android:layout_marginRight="4dp"
+            android:layout_weight="1"
+            android:backgroundTint="#FCF5FD"
+            android:onClick="buttonClicked"
+            android:text="нажми меня"
+            app:srcCompat="@drawable/__1" />
+
+
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="137dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="290dp"
+            android:layout_marginRight="4dp"
+            android:layout_weight="1"
+            android:backgroundTint="#FCF5FD"
+            android:onClick="buttonClicked1"
+            android:text="нажми меня"
+            app:srcCompat="@drawable/r" />
+
+        <ImageButton
+            android:id="@+id/imageButton5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="280dp"
+            android:layout_marginRight="4dp"
+            android:backgroundTint="#FCF5FD"
+            android:onClick="buttonClicked2"
+            android:text="нажми меня"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/df" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
